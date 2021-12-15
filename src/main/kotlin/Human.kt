@@ -6,4 +6,7 @@ data class Human(
     fun isOld(): Boolean {
         return age > 50
     }
+    fun isYoung(): Boolean {
+        return age < 40
+    }
 }
